@@ -32,7 +32,7 @@ function App() {
       <main id="main-content">
         {currentSection === 'home' && (
           <section id="home">
-            <img src="/images/1000004410.jpg" alt="Overview of services offered" />
+            <img src="183548.png" alt="Overview of services offered" />
             <h2>Services</h2>
             <h3>???</h3>
             <ul>
@@ -53,7 +53,7 @@ function App() {
         {currentSection === 'about' && (
           <section id="about">
             <h2>About Me</h2>
-            <img src="/images/1000004410.jpg" alt="Sylvia Dixon" />
+            <img src="183548.png" alt="Sylvia Dixon" />
             <p>
               Hello! I'm Sylvia Dixon, a passionate
             </p>
