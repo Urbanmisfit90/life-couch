@@ -15,7 +15,7 @@ function App() {
         <nav>
           <ul>
             <li>
-            <button className="navlinks" onClick={() => navigateTo('home')} aria-label="Navigate to Home">Home</button>
+              <button className="navlinks" onClick={() => navigateTo('home')} aria-label="Navigate to Home">Home</button>
             </li>
             <li>
               <button className="navlinks" onClick={() => navigateTo('about')}>About</button>
@@ -32,29 +32,30 @@ function App() {
       <main id="main-content">
         {currentSection === 'home' && (
           <section id="home">
-          <h2>Services</h2>
-          <h3>???</h3>
-          <ul>
-            <li>???</li>
-          </ul>
-          <h3>???</h3>
-          <ul>
-            <li>???</li>
-          </ul>
-          <h3>Additional:</h3>
-          <ul>
-            <li>??</li>
-          </ul>
-          <h2 className="projects-heading">???</h2>
-          <div className="projects-container"></div>
-        </section>
-        
+            <img src="/images/1000004410.jpg" alt="Overview of services offered" />
+            <h2>Services</h2>
+            <h3>???</h3>
+            <ul>
+              <li>???</li>
+            </ul>
+            <h3>???</h3>
+            <ul>
+              <li>???</li>
+            </ul>
+            <h3>Additional:</h3>
+            <ul>
+              <li>??</li>
+            </ul>
+            <h2 className="projects-heading">???</h2>
+            <div className="projects-container"></div>
+          </section>
         )}
         {currentSection === 'about' && (
           <section id="about">
             <h2>About Me</h2>
+            <img src="/images/1000004410.jpg" alt="Sylvia Dixon" />
             <p>
-              Hello! I'm Sylvia Dixon, a passionate 
+              Hello! I'm Sylvia Dixon, a passionate
             </p>
           </section>
         )}
