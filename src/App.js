@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './styles.css'; // Ensure file name matches
+import './App.css';
+
 
 function App() {
   const [currentSection, setCurrentSection] = useState('home');
@@ -32,7 +34,7 @@ function App() {
       <main id="main-content">
         {currentSection === 'home' && (
           <section id="home">
-            <img src="183548.png" alt="Overview of services offered" />
+            <img src="183548.png" alt="Overview of services offered" className="image"/>
             <h2>Services</h2>
             <h3>???</h3>
             <ul>
@@ -53,7 +55,7 @@ function App() {
         {currentSection === 'about' && (
           <section id="about">
             <h2>About Me</h2>
-            <img src="183548.png" alt="Sylvia Dixon" />
+            <img src="183548.png" alt="Sylvia Dixon" className="image"/>
             <p>
               Hello! I'm Sylvia Dixon, a passionate
             </p>
